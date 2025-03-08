@@ -2,6 +2,9 @@
 
 Este proyecto implementa pruebas automatizadas utilizando WebdriverIO, Serenity/JS y Cucumber.
 
+## Nombre Del Autor:
+Jhon Hader Rojas Cabrera
+
 ## 👅 Instalación
 
 ```sh
