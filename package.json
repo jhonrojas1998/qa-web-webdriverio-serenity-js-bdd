@@ -24,8 +24,10 @@
     "serenity:update": "serenity-bdd update",
     "serenity:clean": "rimraf target",
     "wdio": "wdio run ./wdio.conf.ts",
+    "test": "npx wdio run ./wdio.conf.ts && npx serenity-bdd run",
     "serenity:report": "serenity-bdd run --features ./features",
     "serenity:run": "failsafe serenity:update serenity:clean wdio serenity:report run --",
     "serenity:run-feature": "serenity-bdd run --spec"
   }
+
 }
